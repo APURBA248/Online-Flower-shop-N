@@ -5,7 +5,7 @@
   font-family: "Lato", sans-serif;
 }
 /* Header-start */
-header {
+.header {
   display: flex;
   height: 800px;
   background: rgba(229, 84, 115, 0.1);
@@ -43,7 +43,7 @@ header {
 /* Header-End */
 
 /* Main-Start */
-section {
+.first-section {
   max-width: 1540px;
   margin: 0px auto;
 }
@@ -135,5 +135,22 @@ font-weight: 600;
 height: 88px;
 margin-top:85 px;
 }
+.header-benar-2{
+  height: 620px;
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+  margin-bottom: 128px;
+}
+.benar-img-2{
+  width: 318px;
+height: 420px;
+margin-top: 100px;
+}
+.benar-title-2{
+  color: #272727;
+font-size: 40px;
+font-weight: 800;
+}
+
 
 /* Main-End */
