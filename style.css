@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Lato", sans-serif;
+  border: 0px;
 }
 /* Header-start */
 .header {
@@ -44,10 +45,9 @@
 
 /* Main-Start */
 .first-section {
-  max-width: 1540px;
+  width: 1440px;
   margin: 0px auto;
-}
-.section-text {
+  background-position: center;
   text-align: center;
 }
 .section-title {
@@ -57,99 +57,76 @@
   margin-top: 178px;
 }
 .section-description {
-  width: 594px;
-  text-align: center;
+  padding-top: 24px;
   color: rgba(39, 39, 39, 0.6);
   font-size: 18px;
   font-weight: 400;
-
-  margin: 24px 660px 0px 460px;
 }
 .section-images {
   display: flex;
   width: 464px;
   height: 538px;
-  gap: 24px;
-  margin: 48px 240px 0px 270px;
+  padding-top: 48px;
+  gap: 80px;
 }
 .sec-img-1 {
-  width: 310px;
-  height: 428px;
-  padding: 110px 75px 0px 75px;
   border-radius: 300px 300px 0px 0px;
   background: rgba(167, 33, 98, 0.15);
+  padding: 110px 78px 0px 76px;
 }
 .sec-img-2 {
-  width: 310px;
-  height: 428px;
-  padding: 117px 46px 50px 46px;
   border-radius: 300px 300px 0px 0px;
   background: rgba(5, 151, 160, 0.15);
+  padding: 117px 47px 51px 47px;
 }
-
 .sec-img-3 {
-  width: 310px;
-  height: 428px;
-  padding: 66px 75px 0px 75px;
   border-radius: 300px 300px 0px 0px;
   background: rgba(71, 125, 17, 0.15);
+  padding: 67px 75px 0px 75px;
 }
-.img-names {
+.sec-img-name {
   display: flex;
-  gap: 250px;
-
-  margin-left: 381px;
-  margin-right: 381px;
-  margin-bottom: 128px;
-}
-.flower-names {
+  justify-content: space-around;
+  margin-top: 32px;
   color: #272727;
-
   font-size: 24px;
   font-weight: 700;
   text-decoration-line: underline;
-}
-.support-section {
-  margin: 0px auto;
-  width: 1440px;
-  padding: 50px;
-  background-position: center;
-  border-radius: 8px;
-  background: rgba(39, 39, 39, 0.05);
   margin-bottom: 128px;
 }
-.flower-Support {
-  display: flex;
-  padding-bottom: 24px;
-  justify-content: space-around;
-}
-.support-p {
-  display: flex;
-  justify-content: space-around;
-  color: rgba(39, 39, 39, 0.8);
-  font-size: 24px;
-  font-weight: 600;
-}
-.support-img {
-  width: 88px;
-  height: 88px;
-  margin-top: 85 px;
-}
-.header-benar-2 {
+.benar-container {
   height: 620px;
   border-radius: 8px;
   background: rgba(229, 84, 115, 0.05);
-  margin-bottom: 128px;
+  padding: 0px 0px 0px 423px;
+  display: flex;
+  align-items: center;
+}
+.benar-titel-2 {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+  padding-bottom: 24px;
+}
+.benar-description-2 {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  padding-bottom: 32px;
+}
+.primary-btn-2 {
+  padding: 20px 43px;
+  border-radius: 8px;
+  background: #e55473;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  margin-left: 150px;
 }
 .benar-img-2 {
   width: 318px;
   height: 420px;
-  margin-top: 100px;
-}
-.benar-title-2 {
-  color: #272727;
-  font-size: 40px;
-  font-weight: 800;
+  margin: 100px 429px 100px 186px;
 }
 .Instagram-sec {
   width: 1440px;
@@ -212,43 +189,43 @@
   padding: 22px 0px 22px 22px;
   background: #fff;
 }
-.last-btn{
+.last-btn {
   padding: 18px 30px;
-border-radius: 8px;
-background: #E55473;
-color: #FFF;
-font-size: 20px;
-font-weight: 700;
-margin-left: 16px;
+  border-radius: 8px;
+  background: #e55473;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  margin-left: 16px;
 }
 /* Main-End */
 
 /* Footer-Start */
-footer{
+footer {
   margin-top: 128px;
   text-align: center;
   background: #111010;
 }
-.foot-title{
-  color: #E55473;
+.foot-title {
+  color: #e55473;
   font-size: 48px;
   font-weight: 800;
   padding-top: 128px;
 }
-.foot-title span{
+.foot-title span {
   color: #ffffff;
 }
-.foot-description{
-  color: rgba(255, 255, 255, 0.90);
-font-size: 18px;
-font-weight: 400;
-padding-top: 24px;
+.foot-description {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 18px;
+  font-weight: 400;
+  padding-top: 24px;
 }
-.foot-copyright{
-  color: rgba(255, 255, 255, 0.40);
-font-size: 16px;
-font-weight: 400;
-padding-top: 32px;
-padding-bottom: 128px;
+.foot-copyright {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 16px;
+  font-weight: 400;
+  padding-top: 32px;
+  padding-bottom: 128px;
 }
 /* Footer-End */
