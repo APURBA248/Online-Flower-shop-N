@@ -151,6 +151,32 @@ margin-top: 100px;
 font-size: 40px;
 font-weight: 800;
 }
-
+.Instagram-sec{
+ 
+  width: 1440px;
+  margin: 0px auto;
+  background-position: center;
+}
+.Instagram-title{
+  color: #272727;
+text-align: center;
+font-size: 40px;
+font-weight: 800;
+}
+.insta-description{
+  color: rgba(39, 39, 39, 0.60);
+  text-align: center;
+font-size: 18px;
+font-weight: 400;
+padding-top: 24px;
+margin-bottom: 48px;
+}
+.insta-img{
+  display: flex;
+  gap: 24px;
+  width: 342px;
+height: 396px;
+margin-bottom: 128px;
+}
 
 /* Main-End */
