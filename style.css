@@ -222,3 +222,33 @@ font-weight: 700;
 margin-left: 16px;
 }
 /* Main-End */
+
+/* Footer-Start */
+footer{
+  margin-top: 128px;
+  text-align: center;
+  background: #111010;
+}
+.foot-title{
+  color: #E55473;
+  font-size: 48px;
+  font-weight: 800;
+  padding-top: 128px;
+}
+.foot-title span{
+  color: #ffffff;
+}
+.foot-description{
+  color: rgba(255, 255, 255, 0.90);
+font-size: 18px;
+font-weight: 400;
+padding-top: 24px;
+}
+.foot-copyright{
+  color: rgba(255, 255, 255, 0.40);
+font-size: 16px;
+font-weight: 400;
+padding-top: 32px;
+padding-bottom: 128px;
+}
+/* Footer-End */
