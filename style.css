@@ -155,6 +155,47 @@
   height: 396px;
   margin-bottom: 128px;
 }
+.extra-sec {
+  width: 1440px;
+  margin: 0px auto;
+  background-position: center;
+  text-align: center;
+}
+.extra {
+  background-color: #f890a6;
+  margin-bottom: 32px;
+  border-radius: 5px;
+}
+.extra-title {
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+  margin-top: 128px;
+  margin-bottom: 32px;
+}
+.extra-title span {
+  color: #f72351;
+  font-size: larger;
+}
+.extra-img {
+  display: flex;
+  gap: 24px;
+  width: 342px;
+  height: 396px;
+  margin-bottom: 28px;
+}
+.ex-img {
+  border-radius: 50%;
+}
+.Flowers-price {
+  display: flex;
+  justify-content: space-around;
+  font-size: 30px;
+  font-weight: 800;
+  color: #272727;
+  text-decoration-line: underline;
+}
 .last-sec {
   width: 1440px;
   height: 449px;
@@ -198,6 +239,55 @@
   font-size: 20px;
   font-weight: 700;
   margin-left: 16px;
+}
+.contac-sec {
+  width: 1440px;
+  margin: 0px auto;
+  background-position: center;
+  text-align: center;
+}
+.contac {
+  background-color: #f890a6;
+  margin-bottom: 32px;
+  border-radius: 5px;
+}
+.contac-title {
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+  margin-top: 128px;
+  margin-bottom: 32px;
+}
+.contac-title span {
+  color: #f72351;
+  font-size: larger;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 8px;
+  background-color: #000000;
+}
+form input {
+  width: 700px;
+  height: 64px;
+  border-radius: 8px;
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+  padding: 22px 0px 22px 22px;
+  background: #fff;
+  border: 1px solid black;
+}
+.contac-form {
+  display: flex;
+}
+.contac-img {
+  width: 842px;
+  height: 420px;
+  padding-left: 100px;
 }
 /* Main-End */
 
