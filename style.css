@@ -14,6 +14,7 @@
 .benar {
   padding: 197px 97px 365px 240px;
 }
+
 .benar-titel {
   width: 708px;
   color: #272727;
@@ -319,4 +320,54 @@ footer {
   padding-top: 32px;
   padding-bottom: 128px;
 }
+.hide{
+  display: none;
+}
 /* Footer-End */
+@media screen and (max-width:576px) {
+  .header ,.section-images ,.benar-container,.extra-sec,.Instagram-sec,.contac-sec ,.contac-form{
+    flex-direction: column;
+    height: 100%;
+   width: 100%;
+    padding: 10px;
+  }
+  .benar {
+    padding:20px;
+  }
+  .benar-img , .benar-titel,.benar-description,.first-section ,.section-title,.section-description ,.benar-titel-2,.benar-description-2,.extra-title,.extra,form input {
+    width: 100%;
+  }
+  .extra-img ,.insta-img{
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    
+  }
+  
+  .benar-img-2 ,.last-sec,.last-in{
+    height: 100%;
+    width: 100%;
+    margin: auto;
+  }
+  .last-btn{
+    margin-top: 10px;
+  }
+  .section-images{
+    width: 100%;
+    height: 100%;
+    padding-top: 20px;
+  gap: 24px;
+  }
+  .sec-img-name,.Flowers-price {
+    display: none;
+  }
+  .primary-btn-2 {
+    margin: auto;
+  }
+  .contac-img{
+    width: 100%;
+    padding: 0;
+  }
+
+}
